@@ -1,0 +1,19 @@
+<?php
+
+function GetCommentsByUser($userId) {
+    $query = "SELECT * FROM comments WHERE userId=:id";
+    return DbSelect($query, array(':id' => $userId));
+}
+
+function GetCommentsWithUsersForItem($itemId) {
+    $query = "SELECT * FROM comments AS c
+			  LEFT JOIN users AS u on u.Id = c.userId
+			  WHERE c.itemId=:id
+			  ORDER by updated";
+    return DbSelect($query, array(':id' => $itemId));
+}
+
+function SaveComment($itemId, $userId, $comment) {
+    $query = "INSERT INTO comments(userId, itemId, comment) VALUES(:userId, :itemId, :comment)";
+    return DbInsert($query, array(':userId' => $userId, ':itemId' => $itemId, ':comment' => $comment));
+}
