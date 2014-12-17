@@ -1,7 +1,6 @@
 <?php
 	$url = $item['ImageUrl'];
 	$upvotes = $item['Upvotes'];
-	$downvotes = $item['Downvotes'];
 	$name = $item['Name'];
 	$id = $item['ID'];
 	$ratio = $item['Ratio'] * 100;
