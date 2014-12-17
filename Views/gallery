@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Converts of London | Gallery</title>
+        <meta name="author" content="Krysta Morgan">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/website/css/screen.css" />
+        <link href="/website/css/screen.css" type="text/css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="page_header">
+                <a href="/index.php"><img src="/website/images/logo.png" id ="logo" alt="Converts of London" title="Converts of London"/></a>
+                <nav>
+                    <ul>
+                        <li><a href="/index.php">HOME</a></li>
+                        <li><a href="/website/views/about/index.php">ABOUT</a></li>
+                        <li><a href="/website/views/gallery/index.php">GALLERY</a></li>
+                        <li><a href="/website/views/share/index.php">SHARE</a></li>
+                        <li><a href="/website/views/contact/index.php">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="gallery">
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=1">
+                            <figure class="itemfigure">
+                                <img src="/website/images/1.jpg" alt="Mr. & Mrs. Nobles" />	
+                                <figcaption>
+                                    <p>Mr. & Mrs. Nobles</p>
+                                    Likes: 113<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=111">
+                            <figure class="itemfigure">
+                                <img src="/website/images/2.jpg" alt="Liza Short" />	
+                                <figcaption>
+                                    <h2>Liza Short</h2>
+                                    Likes: 93<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=101">
+                            <figure class="itemfigure">
+                                <img src="/website/images/3.jpg" alt="Sabrina" />	
+                                <figcaption>
+                                    <h2>Sabrinae</h2>
+                                    Likes: 90<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=21">
+                            <figure class="itemfigure">
+                                <img src="/website/images/4.jpg" alt="Sister, Sister" />	
+                                <figcaption>
+                                    <h2>Sister, Sister</h2>
+                                    Likes: 48<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=11">
+                            <figure class="itemfigure">
+                                <img src="/website/images/5.jpg" alt="Janice Shaw" />	
+                                <figcaption>
+                                    <h2>Janice Shaw</h2>
+                                    Likes: 40<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=31">
+                            <figure class="itemfigure">
+                                <img src="/website/images/6.jpg" alt="Mrs. Cooper" />	
+                                <figcaption>
+                                    <h2>Mrs. Cooper</h2>
+                                    Likes: 85<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=81">
+                            <figure class="itemfigure">
+                                <img src="/website/images/7.jpg" alt="Jane" />	
+                                <figcaption>
+                                    <h2>Jane</h2>
+                                    Likes: 15<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=71">
+                            <figure class="itemfigure">
+                                <img src="/website/images/8.jpg" alt="Ms. Fey" />	
+                                <figcaption>
+                                    <h2>Ms. Fey</h2>
+                                    Likes: 10<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=91">
+                            <figure class="itemfigure">
+                                <img src="/website/images/9.jpg" alt="Jacob, John, & Phillip" />	
+                                <figcaption>
+                                    <h2>Jacob, John, & Phillip</h2>
+                                    Likes: 5<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=41">
+                            <figure class="itemfigure">
+                                <img src="/website/images/10.jpg" alt="Janae" />	
+                                <figcaption>
+                                    <h2>Janae</h2>
+                                    Likes: 4<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=51">
+                            <figure class="itemfigure">
+                                <img src="/website/images/11.jpg" alt="Liz & Ty" />	
+                                <figcaption>
+                                    <h2>Liz & Ty</h2>
+                                    Likes: 10<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="item span_1">
+                        <a href="/?action=viewItem&amp;itemId=61">
+                            <figure class="itemfigure">
+                                <img src="/website/images/12.jpg" alt="Alexander" />	
+                                <figcaption>
+                                    <h2>Alexander</h2>
+                                    Likes: 1<br/>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+
+            </main>
+            <footer id="page_footer">
+                <a href="/website/views/presentation/index.php">Teaching Presentation</a>
+                <a href="/website/views/site_plan/index.php">Site Plan</a>
+                <a href="www.github.com/kpmorgan/CIT_336">Source Code</a>
+                <p>2014 &copy; Converts of London</p>
+            </footer>
+        </div>
+    </body>
+</html>
