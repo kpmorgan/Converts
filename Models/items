@@ -1,0 +1,45 @@
+<?php
+
+function DeleteItem($itemId) {
+    if ($itemId) {
+        $query = "DELETE FROM items WHERE ID=:id";
+        $result = DbExecute($query, array(':id' => $itemId));
+    }
+}
+
+function GetItemById($id) {
+    $query = "SELECT * FROM items WHERE ID=:id";
+    $result = DbSelect($query, array(':id' => $id));
+
+    if (array_key_exists(0, $result)) {
+        return $result[0];
+    }
+
+    return false;
+}
+
+function GetOrderedItems() {
+    $query = "SELECT * FROM items ORDER BY Ratio DESC, Upvotes DESC";
+    return DbSelect($query);
+}
+
+function SaveItemVote($itemId, $direction) {
+    if ($item = GetItemById($itemId)) {
+        if ($direction == 1) {
+            $fieldUpdate = 'Upvotes=Upvotes+1';
+        } else {
+            $fieldUpdate = 'Downvotes=Downvotes+1';
+        }
+
+        $query = "UPDATE items SET $fieldUpdate,Ratio=(Upvotes/(Upvotes+Downvotes)) WHERE ID=:id";
+        DbExecute($query, array(':id' => $itemId));
+    } else {
+        
+    }
+}
+
+function SaveNewItem($name, $imageUrl) {
+    $query = "INSERT INTO items(Name, Upvotes, Downvotes, Ratio, ImageUrl, createdBy) VALUES(:name, 0, 0, 0.0, :url, :userId)";
+    $id = DbInsert($query, array(':name' => $name, ':url' => $imageUrl, ':userId' => GetLoggedInUserId()));
+    return $id;
+}
