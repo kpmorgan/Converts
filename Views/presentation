@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converts of London | Presentation</title>
+        <meta name="author" content="Krysta Morgan">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/website/css/screen.css" />
+        <link href="/website/css/screen.css" type="text/css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <div class="container">
+            <header id="page_header">
+                <a href="/index.php"><img src="/website/images/logo.png" id ="logo" alt="Converts of London" title="Converts of London"/></a>
+                <nav>
+                    <ul>
+                        <li><a href="/index.php">HOME</a></li>
+                        <li><a href="/website/views/about/index.php">ABOUT</a></li>
+                        <li><a href="/website/views/gallery/index.php">GALLERY</a></li>
+                        <li><a href="/website/views/share/index.php">SHARE</a></li>
+                        <li><a href="/website/views/contact/index.php">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h1>Cookies Teaching Presentation</h1>
+                <h1>What are cookies?</h1>
+                <p>A cookie is a piece of data that is saved to the user’s computer that contains information about their personal preferences. This cookie is remembered each time the user visits that website.</p>
+
+                <h1>Cookies in PHP</h1>
+                <p>setcookie(name, value, time);<br>
+                    // name of the cookie<br>
+                    // value of the cookie (what is stored on user’s computer)<br>
+                    // time when the cookie expires. Specify time or set to ‘0’ to expire when the browser closes.<br>
+                    echo $_cookie</p>
+
+                <h1>What Can Cookies Store?</h1>
+                <ul>
+                    <li>Usernames</li>
+                    <li>Passwords</li>
+                    <li>Language</li>
+                    <li>Country</li>
+                    <li>Website layout</li>
+                    <li>Time Visited</li>
+                    <li>Items added to shopping cart</li>
+                    <li>Links clicked on</li>
+                </ul>
+
+                <h1>Working Example</h1>
+                <p>SET THE COOKIE<br>
+                    $value = 'something from somewhere';<br>
+                    setcookie("TestCookie", $value);<br>
+                    setcookie("TestCookie", $value, time() + 3600); /* expire in 1 hour */<br>
+                    setcookie("TestCookie", $value, time() + 3600, "/~rasmus/", "example.com", 1);<br><br>
+
+                    TEST THE COOKIE
+                    // Print an individual cookie<br>
+                    echo $_COOKIE["TestCookie"];<br>
+                    echo $HTTP_COOKIE_VARS["TestCookie"];<br>
+                    ?></p>
+
+                <h1>FAQ</h1>
+                <p>
+                    WHO CAN READ MY COOKIES?<br>
+                    Only the website that saved the cookie can read the one it saved to your computer<br><br>
+
+                    WHAT IS A THIRD-PARTY COOKIE?<br>
+                    Instead of saving the cookie to your computer, it is now saved to an external database. There is no size limitation, allowing sites to gather more user information.<br><br>
+
+                    WHO CREATES COOKIES?<br>
+                    The web developer creates and decides what information a cookie holds.<br><br>
+
+                    ARE COOKIES GOOD OR BAD?<br>
+                    Cookies are simply a tool. They were created to improve the user experience, but they can be used for negative reasons as well.
+                </p>
+
+                <h1>References</h1>
+                <ol>
+                    <li>http://php.net/manual/en/function.setcookie.php</li>
+                    <li>http://www.youtube.com/watch?v=I01XMRo2ESg</li>
+                    <li>http://www.w3schools.com/php/php_cookies.asp</li>
+                    <li>http://www.allaboutcookies.org/cookies/</li>
+                    <li>http://www.webopedia.com/TERM/C/cookie.html</li>
+                    <li>http://en.wikipedia.org/wiki/HTTP_cookie</li>
+                </ol>
+            </main>
+            <footer id="page_footer">
+                <a href="/website/views/presentation/index.php">Teaching Presentation</a>
+                <a href="/website/views/site_plan/index.php">Site Plan</a>
+                <a href="www.github.com/kpmorgan/CIT_336">Source Code</a>
+                <p>2014 &copy; Converts of London</p>
+            </footer>
+        </div>
+    </body>
+</html>
