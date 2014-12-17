@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converts of London | Site Plan</title>
+        <meta name="author" content="Krysta Morgan">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/website/css/screen.css" />
+        <link href="/website/css/screen.css" type="text/css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <div class="container">
+            <header id="page_header">
+                <a href="/index.php"><img src="/website/images/logo.png" id ="logo" alt="Converts of London" title="Converts of London"/></a>
+                <nav>
+                    <ul>
+                        <li><a href="/index.php">HOME</a></li>
+                        <li><a href="/website/views/about/index.php">ABOUT</a></li>
+                        <li><a href="/website/views/gallery/index.php">GALLERY</a></li>
+                        <li><a href="/website/views/share/index.php">SHARE</a></li>
+                        <li><a href="/website/views/contact/index.php">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h1>Site Plan</h1>
+                <h2>Website Purpose</h2>
+                <p>The purpose of the website Converts of London is to bring people together
+                    by sharing their conversion stories. This site is specifically catered
+                    to those converts who are currently living in London.</p>
+
+                <h2>Audience</h2>
+                <p>The audience for Converts of London would be a member of the LDS church,
+                    specifically to those who reside in the United Kingdom, but not limited to
+                    them. Anyone who is a member of the church could find joy through this site.
+                    People who use this site would be aged 16 to 45. </p>
+
+                <h2>Personas</h2>
+                <h3>James Walker</h3>
+                <p>James is a 25 year old man who has recently returned home from
+                    serving a mission in Germany. He is originally from England, and after
+                    serving a mission, he is interested to know about the missionary efforts
+                    taking place in his home country. He would use this site to share these
+                    stories with his friends or other investigators.</p>
+
+                <h3>Leann Campbell</h3>
+                <p>Leann Campbell is a 37 year old woman who has only heard negative things
+                    about the LDS church. She has a few friends who are LDS, but she is always
+                    to afraid to ask them about their religion. She would use this site to learn
+                    about the LDS faith, and discover what kind of people belong to this church.
+                    If she did decided to convert, she could also share her story here to positively
+                    influence others.</p>
+
+                <h2>Scenarios</h2>
+                <ol>
+                    <li>Users will be able to read about others' stories and experiences.</li>
+                    <li>Users would be able to upload their own story and image.</li>
+                    <li>Viewers can vote on stories they like.</li>
+                    <li>Users can create, edit, and delete their own profile.</li>
+                    <li>Contact the website with concerns or suggestions.</li>
+                </ol>
+
+                <h2>Asset List</h2>
+                <ol>
+                    <li>Login page where users can log in or create an account</li>
+                    <li>Home page describing the website</li>
+                    <li>About page with further description about the website</li>
+                    <li>Gallery page where visitors can read and vote on shared stories</li>
+                    <li>Share page where users can upload their own story and image</li>
+                    <li>Contact page where users can use a form to contact administrators</li>
+                </ol>
+                
+                <h2>Site Map</h2>
+                    <img src="/website/images/SiteMap.png" alt="Site Map" title="Site Map Image">
+                    
+                    <h1>Typography</h1>
+                    <table>
+                        <tr>
+                            <td>Location</td>
+                            <td>Font</td>
+                            <td>Size + Style</td>
+                            <td>Line Height</td>
+                            <td>Color</td>
+                        </tr>
+                        <tr>
+                            <td>Navigation</td>
+                            <td>Arial</td>
+                            <td>3em, uppercase</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                        <tr>
+                            <td>H1</td>
+                            <td>Arial</td>
+                            <td>30px, uppercase</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                        <tr>
+                            <td>H2</td>
+                            <td>Arial</td>
+                            <td>24px</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                        <tr>
+                            <td>H3</td>
+                            <td>Arial</td>
+                            <td>16px</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                        <tr>
+                            <td>H4</td>
+                            <td>Arial</td>
+                            <td>15px</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                        <tr>
+                            <td>H5</td>
+                            <td>Arial</td>
+                            <td>15px</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                        <tr>
+                            <td>Paragraph</td>
+                            <td>Arial</td>
+                            <td>12px</td>
+                            <td>Default</td>
+                            <td>#7A7A7A</td>
+                        </tr>
+                    </table>
+                    
+                    <h1>Colors</h1>
+                    <p>By keeping the colors neutral, the content is more powerful.</p>
+                    <figure class="headshot">
+                        White background: #ffffff R:255 G:255 B:255
+                        <img src="/website/images/white.jpg" alt="Color #1" title="Color #1">
+                    </figure>
+                    <figure class="headshot">Gray sidebars: #f7f7f7 R:247 G:247 B:247
+                        <img src="/website/images/gray.jpg" alt="Color #2" title="Color #2">
+                    </figure>
+                    <figure class="headshot">Font color #7a7a7a R:122 G:122 B:122
+                        <img src="/website/images/darkgray.jpg" alt="Color #3" title="Color #3">
+                    </figure>
+                    <figure class="headshot">Link hover color: #ff9999 R:255 G:153 B:153
+                        <img src="/website/images/pink.jpg" alt="Color #4" title="Color #4">
+                    </figure>
+                    <h1>Logo</h1>
+                    <p>This is the logo for the Converts of London website.</p>
+                    <img id="small_logo" src="/website/images/logo.png" alt="Logo for Converts of London" title="Logo for Converts of London">
+
+                    <h1>NAVIGATION</h1>
+                    <h2>Location</h2>
+                    <p>There will be one primary navigation bar located across the top of webpage directly underneath the logo. It will be center aligned with numerous links to click on that will take you to other pages on the website. The pages will be as follows: Home, About, Media, Learn, and Contact.</p>
+                    <h2>Size</h2>
+                    <p>The nav bar will be the same width as the banner with the logo that it is placed beneath, but the height will be much smaller, about 25px in height.</p>
+                    <h2>Effects</h2>
+                    <p>When the computer cursor is hovering over the link, the color of the link will change. I’m not sure if I want the background to change color or the text to change color, but there will be contrast to further indicate this page is a link.</p>
+            </main>
+            <footer id="page_footer">
+                <a href="/website/views/presentation/index.php">Teaching Presentation</a>
+                <a href="/website/views/site_plan/index.php">Site Plan</a>
+                <a href="www.github.com/kpmorgan/CIT_336">Source Code</a>
+                <p>2014 &copy; Converts of London</p>
+            </footer>
+        </div>
+    </body>
+</html>
