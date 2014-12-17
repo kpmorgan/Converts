@@ -1,0 +1,270 @@
+@import url('normalize.css');
+@import url('lightbox.css');
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 16px;
+    font-size: 1em;
+    background-color: #F7F7F7;
+}
+
+.container {
+    /*One value = all four sides*/
+    /*Two values = top and bottom, left and right*/
+    /*Three values = top, left & right, bottom*/
+    /*Four values = top, right, bottom, left*/
+    width: 75%;    
+    margin: 0 auto;
+    background-color: #FEFEFE;
+}
+
+header {
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+/*CENTER NAV*/
+#page_header > nav > ul > li {
+    width: 20%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+#page_header > nav > ul > li > a {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#content_container > nav > ul {
+    width: auto;
+    text-align: center;
+    padding-left:15%;
+    list-style-type: none;
+}
+
+#content_container > nav > ul > li {
+    font: Arial, sans-serif;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 3em;
+}
+
+#content_container > nav > ul > li > a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#content_container > h1 {
+    clear: both;
+}
+
+#sub_nav ul li a {
+    font-size: 1.5em;
+    width: 100%;
+    float: left;
+    margin-right: 5em;
+}
+
+/*LINK BEHAVIOR*/
+a:link {color: #000000;}
+a:visited {color:#7A7A7A;}
+a:hover {color:#ff9999;}
+a:active {color:#7A7A7A;}
+
+/*FONTS*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-indent: 2em;
+    color: #7A7A7A;
+    line-height:150%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+h1 {
+    margin-bottom: -5px;
+}
+
+h1, h2 {
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+    color: #7A7A7A;
+    padding-left: 40px;
+}
+
+h3 {
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 25px;
+    color: #7A7A7A;
+    padding-left: 40px;
+}
+
+h4, h5, h6 {
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    color: #7A7A7A;
+    padding-left: 40px;
+}
+
+#content_container ul li {
+    font-family: Arial, sans-serif;
+    line-height: 25px;
+    color: #7A7A7A;
+}
+
+#content_container ol li {
+    font-family: Arial, sans-serif;
+    line-height: 25px;
+    color: #7A7A7A;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    clear: both;
+}
+
+table, tr, td {
+    border: 1px solid #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    padding: 5px;
+    min-width: 80px;
+}
+
+#content-container body {
+	background: #545454;
+}
+                
+#content_container ul li {
+list-style-type: none;
+}
+
+dl {
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 1em;
+    color: #7A7A7A;
+    padding-left: 80px;  
+}
+
+audio {
+    margin-left: 70px;
+}
+
+
+/*ALL IMAGES*/
+
+/*Image on about page*/
+#center_img {
+    text-align: center;
+    float: left;
+    display: block;
+    width: 60%;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+/*Headshots on home page*/
+.headshot {
+    float: left;
+    width: 45%;
+    display: block;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/*Thumbnails in photo galleries*/
+.thumbnail {
+    text-align: center;
+    float: left;
+    display: block;
+    margin: 5px;
+}
+
+/*Media gallery  menu*/
+ul li img {
+    text-align: center;
+    float: left;
+    display: block;
+    margin: 10px;
+}
+
+#logo {
+ display: block;
+ margin-left:auto;
+ margin-right:auto;
+ width:75%;
+ margin-bottom: 15px;
+}
+
+#small_logo {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+video {
+    text-align: center;
+}
+
+@media screen and (min-width: 1180px) {
+    #page_header nav ul li {
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1179px) {
+    #page_header nav ul li {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  
+    body {
+     font-size: 18px;
+     font-size: 1em;
+    }
+       
+  .container {
+      width: 100%;
+  }
+  
+  .headshot {
+      width: 75%;
+  }
+  
+  figure img {
+      width: 100%;
+  }  
+  
+/*  p {
+      font-size: 14px;
+  }*/
+  
+  #page_header nav ul li {
+      width: 33%;
+      padding: 20px;
+  }
+  
+  #sub_nav li {
+      padding: 10px;
+  }
+  
+  img {
+      max-width: 400px;
+  }
+}
